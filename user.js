@@ -1,12 +1,5 @@
-$.ajax({
-    url: '/some_server_side_script',
-    type: 'POST',
-    contentType: 'application/json',
-    data: JSON.stringify({
-        username: $('username').val(),
-        password: $('password').val(),
-    }),
-    success: function(result) {
-        alert('success');
-    }
-});
+{
+    "password": "<password>",
+    "username": "<username>",
+    "user_arn": "ARN of the Amazon EC2 user"
+}
